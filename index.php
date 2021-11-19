@@ -19,7 +19,11 @@ function addMenu()
 
 function exampleMenu()
 {
-    echo "Hello world!";
+    echo <<<'EOD'
+    <h2>Coming Soon<h2>
+    <p>
+    
+    EOD;
 }
 function option1()
 {
